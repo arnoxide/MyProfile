@@ -4401,6 +4401,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -4409,6 +4410,7 @@ fieldset:disabled .btn {
   color: #0d6efd;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -18817,7 +18819,7 @@ a.footer-logo {
   font-weight: 700;
   color: #000;
   text-transform: uppercase;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   padding: 0px 10px;
 }
 
@@ -18903,6 +18905,7 @@ header {
   height: 90px;
   display: grid;
   align-items: center;
+  color:red;
   /* box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05); */
 }
 
@@ -19151,6 +19154,19 @@ h3.title-style {
   background-size: cover;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width:991px) {
+  .w3l-banner {
+    display: grid;
+    align-items: center;
+    min-height: 50vh;
+    background: url(../images/banner-media.jpg) no-repeat center;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .w3l-banner:before {
